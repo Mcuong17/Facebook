@@ -4,52 +4,518 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logofb.webp">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="main">
+        <!-- BEGIN HEADER -->
         <div id="header">
+            <!-- HEADER-LEFT  -->
             <div class="header__left">
                 <div class="header__logo">
-
+                    <i class="fa-brands fa-facebook"></i>
                 </div>
 
-                <div class="header__search">
-
-                </div>
+                <input type="text" placeholder="Search" class="header__search">
+                    <i class="fa-solid fa-magnifying-glass header__search-logo"></i>                
+                </input>
             </div>
 
+            <!-- HEADER-RIGHT -->
             <div class="header__right">
                 <ul class="header__list">
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
-                    <li class="header__items"></li>
+                    <li class="header__items header__sparate">
+                        <a href="" class="header__link header__sparate">
+                            <img src="./assets/img/avtreal.jpg" alt="" class="header__avt">
+                        </a>
+                    </li>
+                    <li class="header__items">
+                         <a href="" class="header__link header__sparate">Name</a> 
+                    </li>
+
+                    <li class="header__items">
+                        <a href="" class="header__link header__sparate">Home</a> 
+                   </li>
+
+                   <li class="header__items">
+                    <a href="" class="header__link">Find Frends</a> 
+                    </li>
+
+                    <li class="header__items"> 
+                        <a href="" class="header__link">
+                            <i class="fa-solid fa-user-group"></i>
+                        </a>
+                     </li>
+
+                     <li class="header__items"> 
+                        <a href="" class="header__link">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </a>
+                     </li>
+
+                     <li class="header__items"> 
+                        <a href="" class="header__link header__sparate">
+                            <i class="fa-solid fa-earth-asia"></i>
+                        </a>
+                     </li>
+
+                     <li class="header__items"> 
+                        <a href="" class="header__link">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </a>
+                     </li>
                 </ul>
             </div>
 
         </div>
+        <!-- END HEADER -->
         <div id="container">
-
+            <!-- Side bar left -->
             <div class="sidebar-left">
-               
+               <ul class="shortcuts">
+                <li class="shortcuts__items shortcuts__items-head">
+                    <img src="./assets/img/avtreal.jpg" class="header__avt " alt="">
+                    <p>Mạnh Cường</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-pager"></i>
+                    <p>New feed</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <p>Messenger</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <p>Maketplace</p>
+                </li>
+                <br>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Lorem Input</p>
+                </li>
+                <br>
+                <br>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-calendar-day"></i>
+                    <p>Sự kiện</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-flag"></i>
+                    <p>Pages</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <p>Photo</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <p>Game</p>
+                </li>
+                <li class="shortcuts__items">
+                    <i class="fa-solid fa-caret-down"></i>
+                    <p>More...</p>
+                </li>
+               </ul>
             </div>
-            <div class="content">
 
+            <!-- Content middle -->
+            <div class="content">
+                <!-- Head Content fix on top -->
+                <div class="content__middle">
+                    <div class="fix">
+                        <div class="content__post">
+                            <ul class="post">
+                                <li class="post__item ">
+                                    <i class="fa-solid fa-pen"></i>
+                                    <a href="">Make Post</a>
+                                </li>
+                                <li class="post__item">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <a href="">Photo/Video Albumn</a>
+                                </li>
+                                <li class="post__item">
+                                    <i class="fa-solid fa-video"></i>
+                                    <a href="">Live Video</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="content__text">
+                            <div class="content__text-about">
+                                <img src="./assets/img/avtreal.jpg"alt="">
+                                <input type="text" placeholder="What's on your mind, Mạnh Cường" ></input>
+                            </div>
+                            <hr>
+                            <div class="content__sub">
+                                <div class="content__sub-react">
+                                    <i class="fa-solid fa-photo-film"></i>
+                                    <p>Photos/Videos</p>
+                                </div>
+    
+                                <div class="content__sub-react">
+                                    <i class="fa-solid fa-face-smile"></i>
+                                    <p>Feeling/Activity</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                <!-- Main content new feed -->
+                    <div class="content__new-feed">
+                        <div class="content__new-feed-info">
+                            <img src="./assets/img/avtreal.jpg" alt="" class="info__avatar" >
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Mạnh Cường
+                                </p>
+                                <p class="info__time">
+                                    12hour later
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="content__new-feed-title">
+                            PhuQuocTrip ❤️ <br>
+                            
+                        </p>
+
+                        <img src="./assets/img/pq1.jpg" alt="" class="content__new-feed-img">
+
+                        <div class="content__reacts">
+                            <div class="likes">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                                <div class="reacts__list">
+                                    👍
+                                    ❤️
+                                    😂
+                                    😱
+                                    😡
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </div>
+
+                            <div class="shares">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__new-feed">
+                        <div class="content__new-feed-info">
+                            <img src="./assets/img/avtreal.jpg" alt="" class="info__avatar" >
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Mạnh Cường
+                                </p>
+                                <p class="info__time">
+                                    1 year later
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="content__new-feed-title">
+                            End 2021 🥳 <br>
+                            
+                        </p>
+
+                        <!-- <img src="./assets/img/img2.jpg" alt="" class="content__new-feed-img"> -->
+                        <video src="./assets/video/video.mp4" controls="1" class="content__new-feed-img content__new-feed-video"></video>
+                        <div class="content__reacts">
+                            <div class="likes">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                                <div class="reacts__list">
+                                    👍
+                                    ❤️
+                                    😂
+                                    😱
+                                    😡
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </div>
+
+                            <div class="shares">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__new-feed">
+                        <div class="content__new-feed-info">
+                            <img src="./assets/img/avtreal.jpg" alt="" class="info__avatar" >
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Mạnh Cường
+                                </p>
+                                <p class="info__time">
+                                    17:00pm today 
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="content__new-feed-title">
+                            SocSon Camping 👣 <br>
+                            
+                        </p>
+
+                        <img src="./assets/img/ss.jpg" alt="" class="content__new-feed-img">
+
+                        <div class="content__reacts">
+                            <div class="likes">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                                <div class="reacts__list">
+                                    👍
+                                    ❤️
+                                    😂
+                                    😱
+                                    😡
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </div>
+
+                            <div class="shares">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content__new-feed">
+                        <div class="content__new-feed-info">
+                            <img src="./assets/img/lthn.jpg" alt="" class="info__avatar" >
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Lang Thang Hà Nội
+                                </p>
+                                <p class="info__time">
+                                     12:12pm yesterday
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="content__new-feed-title">
+                            TÌNH YÊU ĐƠN GIẢN VẬY THÔI ❤️ <br>
+                            Mà tôi cũng ko có...😢
+                        </p>
+
+                        <img src="./assets/img/img2.jpg" alt="" class="content__new-feed-img">
+
+                        <div class="content__reacts">
+                            <div class="likes">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                Like
+                                <div class="reacts__list">
+                                    👍
+                                    ❤️
+                                    😂
+                                    😱
+                                    😡
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <i class="fa-solid fa-comment"></i>
+                                Comment
+                            </div>
+
+                            <div class="shares">
+                                <i class="fa-solid fa-share"></i>
+                                Share
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Main content new feed -->
+                </div>
             </div>
 
             <div class="sidebar-right">
                 <div class="stories">
+                    <div class="content__new-feed">
+                        <h3 class="stories__title"> Stories </h3>
+                        <div class="content__new-feed-info">
+                            <div class="border__stories">
+                                <img src="./assets/img/r1.avif" alt="" class="info__avatar" >
 
+                            </div>
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Beatriz
+                                </p>
+                                <p class="info__time">
+                                    7 hour later
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="content__new-feed-info">
+                            <div class="border__stories">
+                                <img src="./assets/img/r2.avif" alt="" class="info__avatar" >
+
+                            </div>
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Diya
+                                </p>
+                                <p class="info__time">
+                                    15 minute later
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content__new-feed-info">
+                            <div class="border__stories">
+                                <img src="./assets/img/r3.avif" alt="" class="info__avatar" >
+
+                            </div>
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Fatima
+                                </p>
+                                <p class="info__time">
+                                    2 hour later
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content__new-feed-info">
+                            <div class="border__stories">
+                                <img src="./assets/img/r4.avif" alt="" class="info__avatar" >
+
+                            </div>
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Gabriel
+                                </p>
+                                <p class="info__time">
+                                    Now
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content__new-feed-info">
+                            <div class="border__stories">
+                                <img src="./assets/img/r5.avif" alt="" class="info__avatar" >
+
+                            </div>
+                            <div class="info__status">
+                                <p class="info__name">
+                                    Charles
+                                </p>
+                                <p class="info__time">
+                                    12 minute later
+                                </p>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="page">
+                    <h3 class="page__title">
+                        Your page
+                    </h3>
+                    <hr>
+                    <div class="page_site-name">
+                        <img src="./assets/img/img1.avif" alt="" class="site__img">
+                        <div class="site__content">
+                            <h4>Site name</h4>
+                            <p>
+                                <i class="fa-solid fa-message"></i>
+                                Messages
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-earth-americas"></i>
+                                Thông báo
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
 
+                    <ul class="page__list">
+                        <li class="page__items">
+                            <i class="fa-solid fa-file-pen"></i> <br>
+                            Publish
+                        </li>
+                        <li class="page__items">
+                            <i class="fa-solid fa-camera"></i> <br>
+                            Photos
+                        </li>
+                        <li class="page__items">
+                            <i class="fa-solid fa-video"></i> <br>
+                            Lives
+                        </li>
+                        <li class="page__items">
+                            <i class="fa-solid fa-user"></i> <br>
+                            Invite
+                        </li>
+                    </ul>
+
+                    <ul class="page__likes">
+                        <li><a href="" class="page__link">Likes</a></li>
+                        <li><a href="" class="page__link">Views</a></li>
+                        <li><a href="" class="page__link">Posts</a></li>
+                    </ul>
+
+                    <h3 class="page__number">350</h3>
+                    <p class="number__sub">160 likes this week</p>
+                    <hr>
+                    <div class="page__work">
+                        <h3> Recent Posts</h3>
+                        <div class="page__work-content">
+                            <div class="page_site-name">
+                                <img src="./assets/img/img3.avif" alt="" class="site__img">
+                                <div class="site__content">
+                                    <p>
+                                        Work
+                                    </p>
+                                    <p>
+                                        Lorem ipsum 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
