@@ -120,6 +120,13 @@
     line-height: 30px;
 }
 
+.shortcuts__items i {
+    color: #4366B1;
+}
+
+.shortcuts__items p {
+    color: #222;
+}
 .shortcuts__items-head {
     display: flex;
     font-size: 24px;
@@ -388,7 +395,7 @@
 
 .page__items {
     display: inline-block;
-    padding: 8px;
+    padding: 7px;
     opacity: 0.8;
 }
 
